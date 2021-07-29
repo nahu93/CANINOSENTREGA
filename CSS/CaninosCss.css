@@ -1,0 +1,73 @@
+body {
+  background-image: url(../paginas/multimedia/adopcion/fondo.jpg); }
+
+header {
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  font-weight: bold; }
+  header #logo {
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center; }
+
+@keyframes logo {
+  100% {
+    transform: rotate(360deg); } }
+
+#index {
+  font-size: 30px; }
+
+#epigrafe {
+  font-size: 60px; }
+
+#nosotros {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+  text-align: justify;
+  margin-right: 50px;
+  margin-left: 50px; }
+
+#carouselExampleCaptions {
+  margin-right: 50px;
+  margin-left: 50px; }
+
+#tabla {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+  margin-right: 50px;
+  margin-left: 50px; }
+
+#infoRefugio {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+  text-align: justify;
+  margin-right: 50px;
+  margin-left: 50px; }
+
+#imagenInfo {
+  margin-right: 50px;
+  margin-left: 50px; }
+
+#donacion {
+  margin-right: 50px;
+  margin-left: 50px; }
+
+label {
+  font: 10px;
+  font-family: 'Courgette', cursive;
+  color: #27657b;
+  font-weight: bold; }
+
+footer {
+  text-align: center;
+  margin-top: 20px; }
+
+legend {
+  color: #367caa;
+  font-size: 40px;
+  font-family: 'Courgette', cursive;
+  text-align: center; }

@@ -1,0 +1,59 @@
+body{
+    background-image: url(../paginas/multimedia/adopcion/fondo.jpg);
+  }
+
+  header{font-family: 'Courgette', cursive; font-size: 30px; font-weight: bold; 
+
+    #logo{
+        animation-name: logo ;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        text-align: center;
+       
+    
+    }
+    @keyframes logo {
+ 
+        100%{ transform: rotate(360deg);}
+    }
+   
+    }
+//index//
+
+  #index{font-size: 30px ;}
+  #epigrafe{font-size: 60px ;}
+  #nosotros{font-size: 25px;font-weight: bold;font-family: 'Courgette', cursive; text-align: justify;margin-right: 50px; margin-left: 50px;  }
+  #carouselExampleCaptions{margin-right: 50px; margin-left: 50px }
+
+// Adopcion //    
+
+ #tabla{font-size: 15px;font-weight: bold;font-family:'Courgette', cursive; margin-right: 50px; margin-left: 50px; }
+
+//info//
+
+ #infoRefugio{font-size: 25px;font-weight: bold;font-family: 'Courgette', cursive; text-align: justify;margin-right: 50px; margin-left: 50px}
+ #imagenInfo{margin-right: 50px; margin-left: 50px;}
+
+ //donacion//
+
+ #donacion{margin-right: 50px; margin-left: 50px }
+
+// Comun a todos las secciones //
+ label{font: 10px;font-family:'Courgette', cursive;color: rgb(39, 101, 123); font-weight: bold; }
+ footer {text-align: center; margin-top: 20px;}
+
+ 
+ @mixin titulos ($Colortitulo,$tamanioTitulo) {
+     color: $Colortitulo;
+     font-size: $tamanioTitulo;
+     font-family:'Courgette', cursive; ;
+     text-align: center;
+ }
+ 
+  legend{
+     @include titulos(rgb(54, 124, 170), 40px )     
+ 
+     }
+
+
+    
