@@ -56,6 +56,11 @@ header {
   margin-right: 50px;
   margin-left: 50px; }
 
+h5 {
+  font-family: 'Courgette', cursive;
+  color: #27657b;
+  text-align: center; }
+
 label {
   font: 10px;
   font-family: 'Courgette', cursive;
