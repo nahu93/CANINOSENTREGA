@@ -78,3 +78,61 @@ legend {
   font-size: 40px;
   font-family: 'Courgette', cursive;
   text-align: center; }
+
+@media screen and (max-width: 920px) {
+  header {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    font-weight: bold; }
+    header #logo {
+      animation-name: logo;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      height: 25%;
+      width: 25%; }
+  @keyframes logo {
+    100% {
+      transform: rotate(360deg); } }
+    header ul {
+      margin-left: 12px; }
+  #carouselExampleCaptions {
+    margin-left: 55px; }
+  #nosotros {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    text-align: justify;
+    margin-left: 55px; }
+  #tabla {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    margin-left: 40px; }
+  legend {
+    font-size: 23px;
+    margin-left: 8px; }
+  #imagenInfo {
+    height: 200px;
+    width: 250px; }
+  #infoRefugio {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    text-align: justify;
+    margin-left: 70px; }
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px; }
+  #insta {
+    height: 40px;
+    width: 40px; }
+  #face {
+    height: 40px;
+    width: 40px; }
+  #twit {
+    height: 40px;
+    width: 40px; }
+  #wp {
+    height: 40px;
+    width: 40px; } }
